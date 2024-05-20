@@ -1,0 +1,299 @@
+.section_cust {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: #ed889473;
+  border-radius: 10px;
+
+}
+.cust_hed > h1 {
+  margin: -0.5em;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.cust_hed > p {
+  padding-top: 2em;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.cust_hed > h3 {
+  font-weight: 300;
+  width: 70%;
+  margin: 1.3em auto;
+  font-size: 1.3em;
+}
+.mac_icon {
+  margin: 2px;
+  color: rgb(241, 240, 241);
+}
+.mac_icon:nth-child(1),
+.mac_icon:nth-child(7) {
+  font-size: 2em;
+}
+.mac_icon:nth-child(4) {
+  font-size: 8em;
+}
+.mac_icon:nth-child(3) {
+  font-size: 6em;
+}
+.mac_icon:nth-child(5) {
+  font-size: 6em;
+}
+.mac_icon:nth-child(2),
+.mac_icon:nth-child(6) {
+  font-size: 4em;
+}
+.cust_bottom {
+  position: fixed;
+  display: block;
+  align-items: center;
+  width: 100%;
+  margin: 2em auto;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 2em auto;
+}
+.work:nth-child(2) {
+  margin-top: 5em;
+}
+.work:nth-child(2) .art_left {
+  margin-top: -6em;
+}
+.work:nth-child(3) {
+  margin-top: 5em;
+}
+.work:nth-child(3) .art_left {
+  margin-top: -6em;
+}
+.work:nth-child(4) {
+  margin-top: 5em;
+}
+.work:nth-child(4) .art_left {
+  margin-top: -6em;
+}
+
+.art_left {
+  margin: 0 3em;
+  float: left;
+  text-align: left;
+}
+.art_left > img {
+  height: 15vh;
+  margin: auto;
+}
+.art_left > h1 {
+  font-size: 50px;
+  margin: 0.5em auto;
+}
+.art_left > p {
+  font-size: 18px;
+  width: 80%;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.art_right > img {
+  margin: 1em auto;
+}
+.art_right > img {
+  display: block;
+}
+
+@media only screen and (max-width: 968px) {
+  .section_cust {
+    height: auto;
+  }
+  .cust_hed > h1 {
+    font-size: 3em;
+  }
+  .cust_hed > p {
+    font-size: 12px;
+  }
+  .cust_hed > h3 {
+    font-size: 1.1em;
+    width: 90%;
+  }
+  .mac_icon {
+    font-size: 1.5em;
+  }
+  .mac_icon:nth-child(4) {
+    font-size: 4em;
+  }
+  .mac_icon:nth-child(3) {
+    font-size: 3em;
+  }
+  .mac_icon:nth-child(5) {
+    font-size: 3em;
+  }
+  .mac_icon:nth-child(2),
+  .mac_icon:nth-child(6) {
+    font-size: 2em;
+  }
+  .cust_bottom {
+    position: static;
+    margin: 2em 0;
+  }
+  .work {
+    display: block;
+    width: 100%;
+    margin: 2em auto;
+  }
+  .work:nth-child(2) .art_left {
+    margin-top: 0;
+  }
+  .work:nth-child(3) .art_left {
+    margin-top: 0;
+  }
+  .work:nth-child(4) .art_left {
+    margin-top: 0;
+  }
+  .art_left {
+    margin: 0 1em;
+  }
+  .art_left > img {
+    height: 10vh;
+  }
+  .art_left > h1 {
+    font-size: 2em;
+  }
+  .art_left > p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .art_right > img {
+    height: 30vh;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cust_hed > h1 {
+    font-size: 2em;
+  }
+  .cust_hed > p {
+    font-size: 10px;
+  }
+  .cust_hed > h3 {
+    font-size: 1em;
+    width: 100%;
+  }
+  .mac_icon {
+    font-size: 1.2em;
+  }
+  .mac_icon:nth-child(4) {
+    font-size: 3em;
+  }
+  .mac_icon:nth-child(3) {
+    font-size: 2em;
+  }
+  .mac_icon:nth-child(5) {
+    font-size: 2em;
+  }
+  .mac_icon:nth-child(2),
+  .mac_icon:nth-child(6) {
+    font-size: 1.5em;
+  }
+  .work {
+    display: block;
+    width: 100%;
+    margin: 2em auto;
+  }
+  .work:nth-child(2) .art_left {
+    margin-top: 0;
+  }
+  .work:nth-child(3) .art_left {
+    margin-top: 0;
+  }
+  .work:nth-child(4) .art_left {
+    margin-top: 0;
+  }
+  .art_left {
+    margin: 0 0.5em;
+  }
+  .art_left > img {
+    height: 8vh;
+  }
+  .art_left > h1 {
+    font-size: 1.5em;
+  }
+  .art_left > p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .art_right > img {
+    height: 23vh;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cust_hed > h1 {
+    font-size: 1.5em;
+  }
+  .cust_hed > p {
+    font-size: 8px;
+  }
+  .cust_hed > h3 {
+    font-size: 0.9em;
+    width: 100%;
+  }
+  .mac_icon {
+    font-size: 1em;
+  }
+  .mac_icon:nth-child(4) {
+    font-size: 2em;
+  }
+  .mac_icon:nth-child(3) {
+    font-size: 1.5em;
+  }
+  .mac_icon:nth-child(5) {
+    font-size: 1.5em;
+  }
+  .mac_icon:nth-child(2),
+  .mac_icon:nth-child(6) {
+    font-size: 1em;
+  }
+  .work {
+    display: block;
+    width: 100%;
+    margin: 2em auto;
+  }
+  .work:nth-child(2) .art_left {
+    margin-top: 0;
+  }
+  .work:nth-child(3) .art_left {
+    margin-top: 0;
+  }
+  .work:nth-child(4) .art_left {
+    margin-top: 0;
+  }
+  .art_left {
+    margin: 0 0.2em;
+  }
+  .art_left > img {
+    height: 6vh;
+  }
+  .art_left > h1 {
+    font-size: 1.2em;
+  }
+  .art_left > p {
+    font-size: 10px;
+    width: 100%;
+  }
+  .art_right > img {
+    height: 23vh;
+    width: 70%;
+  }
+}

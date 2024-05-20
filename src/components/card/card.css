@@ -1,0 +1,33 @@
+.card_card {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+  background: rgb(224, 237, 245);
+  margin: auto;
+}
+.card-body > img {
+  border-radius: 20px;
+  height: 40vh;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.card-body >h5{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 0.6em;
+  margin: auto;
+}
+.card-body>p{
+  margin: auto;
+  padding: 0.4em;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+@media screen and (max-width:990px) {
+  .card_card{
+    width: 100%;
+  }
+}
