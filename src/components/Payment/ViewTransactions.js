@@ -7,7 +7,7 @@ const ViewTransactions = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4001/api/transactions")
+      .get("https://server-api-ls2r.onrender.com/transactions")
       .then((response) => {
         setTransactions(response.data);
         console.log(response.data)
