@@ -14,11 +14,13 @@ const PaymentPage = () => {
   const [amount, setAmount] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await axios.post("https://backend-api-1c0h.onrender.com/api/payment", {
+    const response = await axios.post("http://localhost:4001/api/payment", {
       fullname,
       amount,
     });
-    window.location.href = response.data.url;
+    if (response && response.status === 200) {
+      window.location.href = response.data.url;
+    }
   };
 
   return (
@@ -38,7 +40,7 @@ const PaymentPage = () => {
               type="number"
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
-              placeholder="Amount INR"
+              placeholder="Amount"
               required
             />
             <button type="submit">Pay</button>
