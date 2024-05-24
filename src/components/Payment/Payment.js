@@ -14,7 +14,7 @@ const PaymentPage = () => {
   const [amount, setAmount] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await axios.post("https://server-api-ls2r.onrender.com/api/payment", {
+    const response = await axios.post("https://backend-api-1c0h.onrender.com/api/payment", {
       fullname,
       amount,
     });
