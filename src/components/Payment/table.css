@@ -29,9 +29,7 @@
 .rwd-table tr:nth-child(odd):not(:first-child) {
   background-color: #ebf3f9;
 }
-.rwd-table ,table , th ,td{
-    border: 1px solid rgb(156, 168, 169);
-}
+
 .rwd-table th {
   display: none;
 }
@@ -48,13 +46,6 @@
   margin-bottom: 0.5em;
 }
 
-.rwd-table td:before {
-  content: attr(data-th) ": ";
-  font-weight: bold;
-  width: 120px;
-  display: inline-block;
-  color: #000;
-}
 
 .rwd-table th,
 .rwd-table td {
